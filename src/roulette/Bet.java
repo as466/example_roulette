@@ -6,7 +6,11 @@ package roulette;
  * 
  * @author Robert C. Duvall
  */
+<<<<<<< HEAD
 public abstract class Bet {
+=======
+public class Bet {
+>>>>>>> dcee03c2dac1db1a02e89ba5d5777b7d5dc6bbea
     private String myDescription;
     private int myOdds;
 
@@ -34,6 +38,7 @@ public abstract class Bet {
     public String getDescription () {
         return myDescription;
     }
+<<<<<<< HEAD
     
     public String getUserChoice()
     {
@@ -44,4 +49,6 @@ public abstract class Bet {
     {
     	 return false;
     }
+=======
+>>>>>>> dcee03c2dac1db1a02e89ba5d5777b7d5dc6bbea
 }
